@@ -1,0 +1,128 @@
+.projectsr {
+    margin: 40px 20px;
+}
+
+.projectsr .Elzero-Dashboard {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: -5px;
+    padding: 1px 0;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.projectsr .Elzero-Dashboard h5 {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.projectsr .Elzero-Dashboard p {
+    margin-left: 20px;
+    margin-top: -13px;
+    font-size: 14px;
+    color: #777
+}
+
+.projectsr .Elzero-Dashboard small {
+    color: #777;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.projectsr .Elzero-Dashboard .imd {
+    margin: 45px 20px 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 18px;
+}
+
+.projectsr .Elzero-Dashboard .imd img {
+    border-radius: 50%;
+    width: 36px;
+}
+
+.projectsr .Elzero-Dashboard .imd img:not(:first-child) {
+    margin-left: -20px;
+}
+
+.projectsr .Elzero-Dashboard .end {
+    padding: 0 20px 19px 0;
+    margin-left: 20px;
+    margin-top: -7px;
+    border-bottom: 1px solid #eee;
+    text-align: end;
+}
+
+.projectsr .Elzero-Dashboard .end span {
+    background-color: #f6f6f6;
+    padding: 3px 7px;
+    font-size: 14px;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+
+@media(max-width:767px) {
+    .projectsr .Elzero-Dashboard .end span {
+        display: block;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+}
+
+.projectsr .Elzero-Dashboard .foop {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectsr .Elzero-Dashboard .foop .cop {
+    width: 34%;
+    height: 5px;
+    background-color: #ddd;
+    border-radius: 6px;
+    position: relative;
+}
+
+.projectsr .Elzero-Dashboard .foop .cop span {
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    background-color: var(--red-color);
+    border-radius: 6px;
+}
+
+.projectsr .Elzero-Dashboard:nth-child(2) .foop .cop span {
+    background-color: #22c55e;
+    width: 75%;
+}
+
+.projectsr .Elzero-Dashboard:nth-child(3) .foop .cop span {
+    background-color: var(--blue-color);
+    width: 100%;
+}
+
+.projectsr .Elzero-Dashboard:nth-child(4) .foop .cop span {
+    background-color: #22c55e;
+    width: 80%;
+}
+
+.projectsr .Elzero-Dashboard:nth-child(5) .foop .cop span {
+    background-color: #f59e0b;
+    width: 35%;
+}
+
+.projectsr .Elzero-Dashboard:nth-child(6) .foop .cop span {
+    background-color: #22c55e;
+    width: 90%;
+}
+
+.projectsr .Elzero-Dashboard .foop span:last-child {
+    color: #777;
+    font-size: 13px;
+}
+
+.projectsr .Elzero-Dashboard .foop span:last-child i {
+    font-size: 14px;
+}

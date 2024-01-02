@@ -1,0 +1,168 @@
+.files {
+    margin: 45px 20px;
+    display: grid;
+    grid-template-columns: 9fr 4fr;
+    gap: 20px;
+}
+
+.files .right {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 20px;
+}
+
+@media(max-width:940px) {
+    .files {
+        grid-template-columns: 12fr;
+    }
+}
+
+.files .right .only {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.files .right .only:hover img {
+    transform: rotate(10deg);
+}
+
+.files .right .only i {
+    color: #777;
+    margin: 10px 0 0 10px;
+}
+
+.files .right .only .asd {
+    text-align: center;
+    position: relative;
+    padding-bottom: 31px;
+    margin: 0 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.files .right .only .asd img {
+    width: 66px;
+    transition: 0.5s all;
+}
+
+.files .right .only .asd p {
+    font-size: 14px;
+}
+
+.files .right .only .asd span {
+    position: absolute;
+    left: 0;
+    font-size: 13px;
+    color: #777;
+    bottom: 12px;
+}
+
+.files .right .only .pick {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #777;
+}
+
+
+
+
+
+.files .left .Files-Statisticss {
+    background-color: white;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.files .left .Files-Statisticss h3 {
+    padding-left: 12px;
+    font-size: 21px;
+    padding-top: 15px;
+}
+
+.files .left .Files-Statisticss .pdf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.files .left .Files-Statisticss .fil {
+    display: flex;
+    align-items: center;
+}
+
+.files .left .Files-Statisticss .fil i {
+    background-color: rgb(0 117 255 / 20%);
+    margin-right: 10px;
+    padding: 20px 16px;
+    font-size: 14px;
+}
+
+.files .left .Files-Statisticss .fil .tec p {
+    font-size: 13px;
+    margin: 3px 0 0 0;
+}
+
+.files .left .Files-Statisticss .fil .tec span {
+    font-size: 13px;
+    display: block;
+    margin: 6px 0 0px 0;
+    color: #777;
+}
+
+.files .left .Files-Statisticss .pdf small {
+    color: #777;
+}
+
+.files .left .Files-Statisticss .df {
+    margin: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: var(--blue-color);
+    width: fit-content;
+    padding: 13px 20px 11px;
+    border-radius: 6px;
+    display: flex;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.6s all;
+    position: relative;
+}
+
+.files .left .Files-Statisticss .df:hover {
+    background-color: var(--blue-alt-color);
+}
+
+.files .left .Files-Statisticss .df i {
+    left: 15px;
+    position: absolute;
+}
+
+.files .left .Files-Statisticss .df span {
+    margin-left: 15px;
+}
+
+.files .left .Files-Statisticss .df:hover i {
+    animation: toping 0.7s linear infinite;
+}
+
+@keyframes toping {
+    0% {
+        top: 40%;
+    }
+
+    50% {
+        top: 15%;
+    }
+
+    100% {
+        top: 40%;
+    }
+}

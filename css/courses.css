@@ -1,0 +1,75 @@
+.courses {
+    margin: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.courses .Mastering {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.courses .Mastering .image {
+    position: relative;
+    width: 100%;
+}
+
+.courses .Mastering .image img:first-child {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
+}
+
+.courses .Mastering .image img:last-child {
+    width: 62px;
+
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.courses .Mastering .text {
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.courses .Mastering .text h4 {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.courses .Mastering .text p {
+    font-size: 14px;
+    color: #777;
+    margin: -7px 20px 20px 20px;
+    line-height: 1.6;
+}
+
+.courses .Mastering .text span {
+    color: white;
+    padding: 4px 8px;
+    background-color: var(--blue-color);
+    font-size: 13px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.courses .Mastering .footw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.courses .Mastering .footw span {
+    color: #777;
+    font-size: 13px;
+}

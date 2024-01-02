@@ -1,0 +1,113 @@
+.friends {
+    margin: 45px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.friends .Ahmed {
+    border-radius: 6px;
+    background-color: white;
+    position: relative;
+}
+
+.friends .Ahmed .icon {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+
+.friends .Ahmed .icon i {
+    transition: 0.3s all;
+    margin-left: 1px;
+    color: #bbb;
+    background: #ddd;
+
+    border-radius: 50%;
+
+    padding: 8px 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.friends .Ahmed .icon i:hover {
+    background-color: var(--blue-color);
+    color: white;
+}
+
+.friends .Ahmed .icm {
+    margin: 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.friends .Ahmed .icm img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.friends .Ahmed .icm h4 {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.friends .Ahmed .icm p {
+    font-size: 14px;
+    color: #777;
+    margin: -2px 0;
+}
+
+.friends .Ahmed .loop {
+    margin: -14px 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.friends .Ahmed .loop .on {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.friends .Ahmed .loop .on i {
+    margin-right: 6px;
+}
+
+.friends .vip {
+    position: absolute;
+    top: 13%;
+    right: 3%;
+    color: wheat;
+    font-size: 45px;
+    opacity: 0.8;
+}
+
+
+
+.friends .Ahmed .var {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+}
+
+.friends .Ahmed .var small {
+    color: #777;
+}
+
+.friends .Ahmed .var .linkr a:first-child {
+    color: white;
+    background-color: var(--blue-color);
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.friends .Ahmed .var .linkr a:last-child {
+    color: white;
+    background-color: var(--red-color);
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 14px;
+}
